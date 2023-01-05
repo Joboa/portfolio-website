@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
-import {PersonCircleOutline, MenuOutline, CloseOutline} from 'react-ionicons'
+import { MenuOutline, CloseOutline} from 'react-ionicons'
 import joboa from '../images/joboa.jpg'
 
 const Navbar = () => {
@@ -24,8 +24,7 @@ const Navbar = () => {
           <span className='text-3xl mr-1 pt-1'>
           {/* <PersonCircleOutline color={'black'} title={''} />  */}
           <img src={joboa} alt="joboa" className="h-8 pr-1 mx-auto rounded-3xl"/>
-          </span>
-          J-Boamah
+          </span><Link to='/'> J-Boamah</Link>
         </div>
         {/* breadcumbs */}
         <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-5 cursor-pointer md:hidden '>
