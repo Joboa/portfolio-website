@@ -10,7 +10,7 @@ const Pagination = ({ imagesPerPage, totalImages, paginate }) => {
   const blockRefresh = "javascript:void(0)"
 
   return (
-    <nav className="text-center">
+    <nav className="text-center mx-auto">
       <ul className="inline-flex items-center -space-x-px">
         {pageNumbers.map(number => (
           <li key={number}>
