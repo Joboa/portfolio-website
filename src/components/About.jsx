@@ -12,8 +12,7 @@ const About = () => {
             {/* <br className="hidden lg:inline-block" />I love to building apps and reading about new technologies. */}
           </h1>
           <p className="mb-8 leading-relaxed text-gray-800">
-            ... A Christian, Researcher, Student, Programmer, Full-Stack Developer and an Aspiring Professor Emeritus. 
-            I love building apps and enjoy coding. My specialities are in Fluid Mechanics, Scientific Computation, Web development and Data Science
+            ... A Researcher, Student, Programmer and a Full-Stack Developer. I love building apps and enjoy coding. My specialities are in Fluid Mechanics, Scientific Computation, Web development and Data Science.
           </p>
           <div className="flex justify-center">
             <a
