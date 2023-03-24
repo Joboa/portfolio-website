@@ -12,7 +12,7 @@ const About = () => {
             {/* <br className="hidden lg:inline-block" />I love to building apps and reading about new technologies. */}
           </h1>
           <p className="mb-8 leading-relaxed text-gray-800">
-            ... A Researcher, Student, Programmer and a Full-Stack Developer. I love building apps and enjoy coding. My specialities are in Fluid Mechanics, Scientific Computation, Web development and Data Science.
+            A highly motivated software developer with experience in full-stack development and AI programming. Skilled in building reusable UIs with React and developing REST APIs using Python/Django, Java/Spring Boot, and Ruby on Rails. Proficient in data analysis with NumPy, Pandas, and Matplotlib, as well as deep learning with PyTorch. Demonstrated ability to integrate third-party APIs and develop responsive web applications using Tailwind CSS and Material UI. Completed a smart contract development workshop with proficiency in Solidity and TypeScript programming languages.
           </p>
           <div className="flex justify-center">
             <a
